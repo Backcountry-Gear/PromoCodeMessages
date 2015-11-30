@@ -376,7 +376,7 @@ class Hackathon_PromoCodeMessages_Model_Validator extends Mage_Core_Model_Abstra
                 $this->_helper->__('At least one of the following conditions must be met:'));
         }
         else {
-            $heading = sprintf('%s',$this->_helper->__('Ah ah ah! You didn\'t Say the Magic word! All of the following conditions must be met: Hotsheetsave10 does not apply to sale or clearance items and some brands. See <a href="http://www.backcountrygear.com/promo" target="_blank">our promo page</a> for more details. DENIED!'));
+            $heading = sprintf('%s',$this->_helper->__('All of the following conditions must be met: Hotsheetsave10 does not apply to sale or clearance items and some brands. See <a href="http://www.backcountrygear.com/promo" target="_blank">our promo page</a> for more details.'));
         }
 
         return $heading;
